@@ -1,4 +1,6 @@
-p {
-    background-color: aqua;
-    border: 1px solid black;
+img {
+    width: 80%;
+    display: block;
+    position: relative;
+    left: 510px;
 }
