@@ -1,6 +1,63 @@
-img {
+body{
+    margin: 0;
+}
+main {
+    background-image: url(../IMG/home\ background.png);
     width: 80%;
-    display: block;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left:20%;
     position: relative;
-    left: 510px;
+}
+
+.image {
+    width: 19.8vw;
+    height: 40vh;
+    background-image: url(../IMG/image.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 1725px;
+    top: 100px;
+}
+.user {
+    width: 19.8vw;
+    height: 40vh;
+    background-image: url(../IMG/user.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 200px;
+    top: 1000px;
+}
+
+.serach {
+    width: 19.8vw;
+    height: 40vh;
+    background-image: url(../IMG/serach.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 195px;
+    left: 0;
+    top: 1000px; 
+}
+
+.red-box {
+    width: 19.8vw;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-color: rgba(242, 73, 93, 255);
+    position: relative;
+    right: 458px;
+}
+
+.black-box {
+    width: 19.8vw;
+    height: 70vh;
+    background-color: rgba(25,25,25,255);
+    position: relative;
+    right: 458px;
+}
+
+ul{
+    list-style-type: none;
 }
