@@ -1,4 +1,6 @@
-body {}
+body {
+	
+}
 
 .ikon-borders:hover {
     background-color: red;
@@ -64,4 +66,79 @@ body {}
     line-height: 68px;
     font-size: 30px;
     background-color: rgba(242, 73, 93, 255);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+    .footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    }
+ 
+.footer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+ 
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+ 
+.footer-logo .logo-icon {
+  width: 120px;
+  height: auto;
+  margin-bottom: 20px;
+}
+ 
+.footer-logo h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+ 
+.contact-title {
+  font-size: 20px;
+  margin-bottom: 30px;
+      &:hover {
+        color: red;}
+}
+ 
+.footer-contacts {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+ 
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+ 
+.footer-bottom {
+  border-top: 1px solid #555;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #ccc;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size:medium;
+    &:hover {
+        color: red;
+    }
+}
+.MAP {
+	padding-bottom: 35px;
 }
