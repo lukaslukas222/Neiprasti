@@ -1,0 +1,67 @@
+body {}
+
+.ikon-borders:hover {
+    background-color: red;
+}
+ 
+.container {
+	padding: 40px;
+}
+
+.about_taital {
+	width: 100%;
+	float: left;
+	font-size: 40px;
+	text-align: center;
+	color: #262626;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: octinSportsRg;
+	border-top: 1px solid #b7b7b7;
+	padding-top: 30px;
+}
+
+.about_img {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.about_text {
+	width: 95%;
+	margin: 0 auto;
+	font-size: 20px;
+	color: #252525;
+	text-align: center;
+}
+
+.read_bt {
+	width: 160px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 30px;
+
+}
+
+.line {
+	width: 95%;
+	float: center;
+	font-size: 0px;
+	text-align: center;
+	color: #262626;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: octinSportsRg;
+	border-top: 1px solid #b7b7b7; 
+	padding-top: 20px;
+}
+.mygtukas {
+    margin-top: 20px;
+    width: 170px;
+    height: 70px;
+    text-align: center;
+    line-height: 68px;
+    font-size: 30px;
+    background-color: rgba(242, 73, 93, 255);
+}
