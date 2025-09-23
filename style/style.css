@@ -48,9 +48,6 @@ main {
     width: 15rem;
     height: 11rem;
     background-repeat: no-repeat;
-
-
-
 }
 
 .user {
@@ -85,7 +82,7 @@ main {
 
 .ikon-borders {
     border: 1px solid white;
-    margin-top: 40px;
+    margin-top: 50px;
     height: 70px;
     text-align: center;
     align-content: center;
@@ -129,4 +126,33 @@ p {
     line-height: 68px;
     font-size: 70px;
     background-color: rgba(242, 73, 93, 255);
+}
+
+.LOGIN {
+    color: white;
+}
+
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+}
+
+.top-right .user, .top-right .search {
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.rodykles {
+    position: absolute;
+    bottom: 50px;
+    right: 70px;
+    display: flex;
+    gap: 10px;
 }
