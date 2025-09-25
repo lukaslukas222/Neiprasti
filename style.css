@@ -1,71 +1,46 @@
-body {
-	
-}
+body {}
 
 .ikon-borders:hover {
-    background-color: red;
+  background-color: red;
 }
- 
+
 .container {
-	padding: 40px;
+  padding: 1px;
 }
 
 .about_taital {
-	width: 100%;
-	float: left;
-	font-size: 40px;
-	text-align: center;
-	color: #262626;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-family: octinSportsRg;
-	border-top: 1px solid #b7b7b7;
-	padding-top: 30px;
+  width: 100%;
+  float: left;
+  font-size: 40px;
+  text-align: center;
+  color: #262626;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: octinSportsRg;
+  padding-top: 30px;
 }
 
 .about_img {
-	width: 100%;
-	float: left;
-	text-align: center;
-	padding-bottom: 50px;
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 .about_text {
-	width: 95%;
-	margin: 0 auto;
-	font-size: 20px;
-	color: #252525;
-	text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #252525;
+  text-align: center;
 }
 
 .read_bt {
-	width: 160px;
-	margin: 0 auto;
-	text-align: center;
-	padding-top: 30px;
+  width: 160px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
 
-}
-
-.line {
-	width: 95%;
-	float: center;
-	font-size: 0px;
-	text-align: center;
-	color: #262626;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-family: octinSportsRg;
-	border-top: 1px solid #b7b7b7; 
-	padding-top: 20px;
-}
-.mygtukas {
-    margin-top: 20px;
-    width: 170px;
-    height: 70px;
-    text-align: center;
-    line-height: 68px;
-    font-size: 30px;
-    background-color: rgba(242, 73, 93, 255);
 }
 
 body {
@@ -73,43 +48,45 @@ body {
   background-color: #fff;
 }
 
-    .footer-container {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 20px;
-    text-align: center;
-    }
- 
+.footer-container {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
 .footer {
   max-width: 900px;
   margin: 0 auto;
 }
- 
+
 .footer-logo {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
 }
- 
+
 .footer-logo .logo-icon {
   width: 120px;
   height: auto;
   margin-bottom: 20px;
 }
- 
+
 .footer-logo h2 {
   font-size: 24px;
   font-weight: bold;
 }
- 
+
 .contact-title {
   font-size: 20px;
   margin-bottom: 30px;
-      &:hover {
-        color: red;}
+
+  &:hover {
+    color: red;
+  }
 }
- 
+
 .footer-contacts {
   display: flex;
   justify-content: center;
@@ -117,28 +94,55 @@ body {
   margin-bottom: 30px;
   flex-wrap: wrap;
 }
- 
+
 .contact-item {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 7px;
   font-size: 14px;
 }
- 
+
 .footer-bottom {
   border-top: 1px solid #555;
   padding-top: 15px;
   font-size: 13px;
   color: #ccc;
 }
+
 a {
-    color: white;
-    text-decoration: none;
-    font-size:medium;
-    &:hover {
-        color: red;
-    }
+  color: white;
+  text-decoration: none;
+  font-size: medium;
+
+  &:hover {
+    color: red;
+  }
 }
-.MAP {
-	padding-bottom: 35px;
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
 }
+
+.black-button {
+background-color: black;
+color: white;
+border: none;
+padding: 27px 50px;
+font-size: 16px;
+font-family: 'Arial', sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
+cursor: pointer;
+
+&:hover {
+  background-color: rgba(245, 33, 33, 0.938)
+}
+}
+
+div.Rectangle {
+  text-align: center;
+  margin: -20px;
+  left: 20px;
+}
+
