@@ -1,4 +1,6 @@
-body {}
+.body {
+
+}
 
 .ikon-borders:hover {
   background-color: red;
@@ -134,7 +136,6 @@ font-family: 'Arial', sans-serif;
 text-transform: uppercase;
 letter-spacing: 1px;
 cursor: pointer;
-
 &:hover {
   background-color: rgba(245, 33, 33, 0.938)
 }
