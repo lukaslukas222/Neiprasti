@@ -18,7 +18,6 @@ body {
 	color: #262626;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-family: octinSportsRg;
 	border-top: 1px solid #b7b7b7;
 	padding-top: 30px;
 }
@@ -141,4 +140,130 @@ a {
 }
 .MAP {
 	padding-bottom: 35px;
+}
+
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 200px;
+  }
+
+  .bg {
+    padding-left: 200px;
+  }
+
+  .wedding h1 {
+    font-size: 36px;
+  }
+
+  .wedding p {
+    font-size: 16px;
+  }
+
+  .top-right {
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+  }
+
+  .ikon-borders img {
+    width: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sidebar {
+    position: static;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sidebar ul {
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+  }
+
+  .bg {
+    padding: 20px;
+  }
+
+  .wedding {
+    text-align: center;
+  }
+
+  .wedding h1 {
+    font-size: 28px;
+  }
+
+  .wedding p {
+    font-size: 14px;
+  }
+
+  .top-right {
+    position: static;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .rodykles {
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .ikon-borders {
+    width: 40px;
+    height: 40px;
+  }
+
+  .ikon-borders img {
+    width: 100%;
+  }
+
+  .footer-contacts {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact_bt h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  .wedding h1 {
+    font-size: 24px;
+  }
+
+  .wedding p {
+    font-size: 12px;
+  }
+
+  .contact_bt h2 {
+    font-size: 16px;
+  }
+
+  .ikon-borders {
+    width: 30px;
+    height: 30px;
+  }
+
+  .ikon-borders img {
+    width: 100%;
+  }
+
+  .top-right {
+    font-size: 12px;
+  }
+
+  nav.sidebar {
+    padding: 10px;
+  }
+
+  .sidebar ul li a {
+    font-size: 14px;
+  }
 }
