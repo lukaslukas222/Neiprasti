@@ -1,71 +1,126 @@
 body {
-	
+  font-family: Arial, sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-.ikon-borders:hover {
-    background-color: red;
-}
- 
-.container {
-	padding: 40px;
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 40px 0 20px;
 }
 
-.about_taital {
-	width: 100%;
-	float: left;
-	font-size: 40px;
-	text-align: center;
-	color: #262626;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-family: octinSportsRg;
-	border-top: 1px solid #b7b7b7;
-	padding-top: 30px;
+h2 span {
+  color: #e63946;
 }
 
-.about_img {
-	width: 100%;
-	float: left;
-	text-align: center;
-	padding-bottom: 50px;
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 50px auto;
+  position: relative;
 }
 
-.about_text {
-	width: 95%;
-	margin: 0 auto;
-	font-size: 20px;
-	color: #252525;
-	text-align: center;
+.testimonial-box {
+  width: 300px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.testimonial-header {
+  background: #e63946;
+  height: 70px;
+  position: relative;
+}
+
+.testimonial-header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.testimonial-body {
+  margin-top: 70px;
+  padding: 20px;
+}
+
+.testimonial-body h3 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #e63946;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.testimonial-body p {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.quote {
+  font-size: 90px;
+  color: #e63946;
+  margin-top: 5px;
+}
+
+.arrows {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  gap: 20px;
+}
+
+.arrow {
+  width: 40px;
+  height: 40px;
+  background: #000000;
+  color: #ffffff;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 23px;
+  border-radius: 3px;
+  position: absolute;
+  top: 42%;
+  transform: translateY(-50%);
+}
+
+.arrow:hover {
+  background: #000;
+  color: #fff;
+}
+
+.arrow.left {
+  left: 100px;
+  padding: 3px;
+}
+
+.arrow.right {
+  right: 100px;
+  padding: 3px;
 }
 
 .read_bt {
-	width: 160px;
-	margin: 0 auto;
-	text-align: center;
-	padding-top: 30px;
+  width: 160px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
 
-}
-
-.line {
-	width: 95%;
-	float: center;
-	font-size: 0px;
-	text-align: center;
-	color: #262626;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-family: octinSportsRg;
-	border-top: 1px solid #b7b7b7; 
-	padding-top: 20px;
-}
-.mygtukas {
-    margin-top: 20px;
-    width: 170px;
-    height: 70px;
-    text-align: center;
-    line-height: 68px;
-    font-size: 30px;
-    background-color: rgba(242, 73, 93, 255);
 }
 
 body {
@@ -73,12 +128,12 @@ body {
   background-color: #fff;
 }
 
-    .footer-container {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 20px;
-    text-align: center;
-    }
+.footer-container {
+  background-color: #333;
+  color: white;
+  padding: 150px 20px;
+  text-align: center;
+}
  
 .footer {
   max-width: 900px;
@@ -106,8 +161,10 @@ body {
 .contact-title {
   font-size: 20px;
   margin-bottom: 30px;
-      &:hover {
-        color: red;}
+ 
+  &:hover {
+    color: red;
+  }
 }
  
 .footer-contacts {
@@ -121,7 +178,7 @@ body {
 .contact-item {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 7px;
   font-size: 14px;
 }
  
@@ -131,14 +188,26 @@ body {
   font-size: 13px;
   color: #ccc;
 }
+ 
 a {
-    color: white;
-    text-decoration: none;
-    font-size:medium;
-    &:hover {
-        color: red;
-    }
+  color: white;
+  text-decoration: none;
+  font-size: medium;
+ 
+  &:hover {
+    color: red;
+  }
+}
+ 
+.anlak {
+    padding-top: 30px;
+  }
+
+  div.Rectangle {
+  text-align: center;
+  margin: -20px;
+  left: 20px;
 }
 .MAP {
-	padding-bottom: 35px;
+  padding-top: 30px;
 }
