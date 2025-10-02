@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+}
+
+.bg {
+    background-image: url(../IMG/home\ background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size:medium;
+    &:hover {
+        color: red;
+    }
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 100px;
+}
+
+li {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+
+
+}
+
+hr {
+    border: 1px solid rgb(82, 82, 82);
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+main {
+    display: flex;
+}
+
+.image {
+    width: 15rem;
+    height: 11rem;
+    background-repeat: no-repeat;
+}
+
+.user {
+    width: 19.8vw;
+    height: 40vh;
+    background-image: url(../IMG/user.png);
+    background-repeat: no-repeat;
+}
+
+.search {
+    width: 19.8vw;
+    height: 40vh;
+    background-image: url(../IMG/search.png);
+    background-repeat: no-repeat;
+
+}
+
+.red-box {
+    width: 19.8vw;
+    height: 30vh;
+    background-color: rgba(242, 73, 93, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-box {
+    width: 19.8vw;
+    height: 70vh;
+    background-color: rgba(25, 25, 25, 255);
+}
+
+.ikon-borders {
+    border: 1px solid white;
+    margin-top: 50px;
+    height: 70px;
+    text-align: center;
+    align-content: center;
+}
+.ikon-borders:hover {
+    background-color: red;
+}
+
+.wedding {
+    text-align: center;
+    position: relative;
+    top: 38%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: start;
+    font-size: 65px;
+    padding: 0;
+    margin: 0;
+}
+
+.wedding h1 {
+    margin-bottom: 10px;
+}
+
+.wedding p {
+    margin-top: 0;
+}
+
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.contact_bt {
+    margin-top: 20px;
+    width: 170px;
+    height: 70px;
+    text-align: center;
+    line-height: 68px;
+    font-size: 70px;
+    background-color: rgba(242, 73, 93, 255);
+}
+
+.LOGIN {
+    color: white;
+}
+
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+}
+
+.top-right .user, .top-right .search {
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.rodykles {
+    position: absolute;
+    bottom: 50px;
+    right: 70px;
+    display: flex;
+    gap: 10px;
+}
